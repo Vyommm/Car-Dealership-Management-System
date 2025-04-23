@@ -21,15 +21,3 @@ A Spring Boot-based backend application for managing car dealership operations, 
 - **Custom Queries**: `@Query` for JPQL/SQL operations
 - **Exception Handling**: Custom exceptions like `CustomerNotFoundException`
 
-## 📂 Project Structure
-
-src/
-├── main/
-│   ├── java/com/cardealership/managementsystem/
-│   │   ├── controller/       # (Optional) REST controllers
-│   │   ├── service/          # Business logic layer
-│   │   ├── repository/       # JPA repositories
-│   │   ├── model/            # Entity classes
-│   │   └── exception/        # Custom exception classes
-│   └── resources/
-│       ├── application.properties
